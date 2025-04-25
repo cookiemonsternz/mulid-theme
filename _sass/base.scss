@@ -1,7 +1,17 @@
+// #252627
+// #1B998B
+// #E4E3D3
+
 body {
-    background-color: hsl(45, 100%, 92%);
-    font-family: sans-serif;
+    background-color: #252627;
+    font-family: "Nunito", sans-serif;
     margin: auto;
     max-width: 70ch;
-    color: #212903;
+    color: #E4E3D3;
+}
+
+.content {
+    background-color: #252627;
+    padding: 1rem;
+    padding-bottom: 2rem;
 }
