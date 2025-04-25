@@ -9,14 +9,13 @@ function setup() {
   background(0);
   bgColor = color(bgColor);
   fgColor = color(fgColor);
-  console.log(backgroundColor, backgroundFColor);
-  setColors(backgroundColor, backgroundFColor);
+  setColors(backgroundColor, foregroundColor);
 }
 
 function draw() {
   background(bgColor); // subtle fade
   // stroke(255);
-  grid(10, 10); // grid size
+  grid(round(windowWidth / 100), round(windowHeight / 100)); // grid size
 }
 
 function grid(xDiv, yDiv) {
