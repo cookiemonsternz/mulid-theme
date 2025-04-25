@@ -9,8 +9,10 @@
       const foregroundColor = "{{ page.foreground_color | default: '#E4E3D3' }}";
     </script>
     <script src="{{ '/assets/js/background.js' | relative_url }}"></script>
+    {% include header.html %}
     <div class="content">
       {{ content }}
     </div>
+    {% include footer.html %}
   </body>
 </html>

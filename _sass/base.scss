@@ -2,16 +2,54 @@
 // #1B998B
 // #E4E3D3
 
+* {
+	margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
 body {
     background-color: #252627;
     font-family: "Nunito", sans-serif;
     margin: auto;
-    max-width: 70ch;
+    max-width: 60%;
+    height: 100%;
     color: #E4E3D3;
+    display: flex;
+    flex-direction: column;
 }
 
 .content {
     background-color: #252627;
-    padding: 1rem;
-    padding-bottom: 2rem;
+    padding: 2em 3em;
+}
+
+// **** HEADER ****
+header {
+    background-color: #252627;
+    margin-bottom: 1em;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.title {
+    font-size: 2.5em;
+    color: #E4E3D3;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1em;
+    color: #e4e3d3c1;
+    margin: 0;
+}
+
+// **** FOOTER ****
+footer {
+    background-color: #252627;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: auto;
 }
