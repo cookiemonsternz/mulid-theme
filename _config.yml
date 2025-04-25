@@ -1,5 +1,5 @@
-title: tonic-starter
-description: ""
+title: mulid
+description: "A custom dark / light theme, inspired by the one dark theme, for use in my personal sites"
 encoding: utf-8
 
 exclude: ["README.md", "LICENSE", "*.gem", "*.gemspec", "Gemfile.lock"]
