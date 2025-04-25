@@ -1,3 +1,6 @@
+baseurl: /
+url: https://cookiemonsternz.github.io
+
 title: mulid
 description: "A custom dark / light theme, inspired by the one dark theme, for use in my personal sites"
 encoding: utf-8
