@@ -1,5 +1,6 @@
 ---
 title: Main Page
+layout: default
 ---
 
 # mulid-theme
